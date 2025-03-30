@@ -1,0 +1,7 @@
+Система: PostgreSQL
+Сервер: postgres
+Пользователь: postgres
+Пароль: postgres
+База данных: mydb
+
+docker exec -it my_postgres psql -U postgres -d mydb
